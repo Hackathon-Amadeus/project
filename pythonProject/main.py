@@ -19,6 +19,21 @@ try:
 except ResponseError as error:
     print(error)
 
+try:
+    response = amadeus.reference_data.recommended_locations.get(cityCodes='RIO', travelerCountryCode='FR')
+    #print(response.data)
+except ResponseError as error:
+    print(error)
+
+objeto = response.data
+lat  = objeto[0]['geoCode']['latitude']
+lon = objeto[0]['geoCode']['longitude']
+
+response = amadeus.safety.safety_rated_locations.get(latitude=(str)(lat), longitude= (str)(lon))
+print(response.data)
+
+print(lat)
+print(lon)
 print("Bot started...")
 
 data = dict()
@@ -30,12 +45,12 @@ def get_id(update):
 
 def create_fields(id):
 	global data
-	data[id] = {'pergunta' : 0, 'nome': '', 'CNPJ': '', 'estado' : '', 'renda' : '', 'credito' : '', 'indicador' : '', 'maturidade' : False}
+	data[id] = {'pergunta' : 0, 'src': '', 'dest': '', 'contrycode' : '', 'adults' : '', 'data' : '', 'upsell' : '', 'Permanence' : False}
 
 
 def start_command(update, context):
 	global data
-	update.message.reply_text("Oi! Eu sou a Maria. Fico muito feliz em ver que você quer investir no seu negócio. :-D Estou aqui para te ajudar. Se você desejar, digite \"cadastro\" para iniciar o processo. Lembrando que o pré-cadastro não é garantia de acesso nem liberação de crédito, tá? ;-)")
+	update.message.reply_text("Seja bem vindo ao seu ajudante virtual. Acredito que você precise de ajuda para iniciar sua jornada como nômade! Digite 'go' para encontrar o voo que te levará a seu próximo destino!")
 	create_fields(get_id(update))
 
 
@@ -66,7 +81,7 @@ def error(update, context):
 
 
 def main():
-	updater = Updater('5807972274:AAGg0toccu0xlL8k17ywSCzslib7CC5HP-k', use_context = True)
+	updater = Updater('5513016229:AAH99XIqBllKTdnV6RNEAKp3_kgAMemfBZI', use_context = True)
 	dp = updater.dispatcher
 	dp.add_handler(CommandHandler("start", start_command))
 	dp.add_handler(CommandHandler("help", help_command))
