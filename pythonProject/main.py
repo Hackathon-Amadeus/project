@@ -11,7 +11,7 @@ amadeus = Client(
 
 try:
     response = amadeus.shopping.flight_offers_search.get(
-        originLocationCode='Pushswap',
+        originLocationCode='LON',
         destinationLocationCode='ATH',
         departureDate='2022-12-01',
         adults=1)
@@ -20,7 +20,7 @@ except ResponseError as error:
     print(error)
 
 try:
-    response = amadeus.reference_data.recommended_locations.get(cityCodes='RIO', travelerCountryCode='FR')
+    response = amadeus.reference_data.recommended_locations.get(cityCodes='LON', travelerCountryCode='US')
     #print(response.data)
 except ResponseError as error:
     print(error)
@@ -29,7 +29,7 @@ objeto = response.data
 lat  = objeto[0]['geoCode']['latitude']
 lon = objeto[0]['geoCode']['longitude']
 
-response = amadeus.safety.safety_rated_locations.get(latitude=(str)(lat), longitude= (str)(lon))
+response = amadeus.safety.safety_rated_locations.get(latitude=(lat), longitude= (lon))
 print(response.data)
 
 print(lat)
