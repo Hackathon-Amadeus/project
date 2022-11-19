@@ -2,6 +2,22 @@ import os
 from telegram.ext import *
 import json
 import responses as r
+from amadeus import Client, ResponseError
+
+amadeus = Client(
+    client_id='oGDkd7G61c0KfkmVV3oAQtMNryvoW6VG',
+    client_secret='GwXAbyPUziKZC8S9'
+)
+
+try:
+    response = amadeus.shopping.flight_offers_search.get(
+        originLocationCode='Pushswap',
+        destinationLocationCode='ATH',
+        departureDate='2022-12-01',
+        adults=1)
+    print(response.data)
+except ResponseError as error:
+    print(error)
 
 print("Bot started...")
 
