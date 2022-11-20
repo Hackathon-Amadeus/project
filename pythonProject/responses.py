@@ -1,3 +1,7 @@
+
+from telegram.ext import *
+from    main.py import * 
+
 # Verificação de digitos
 def has_numbers(inputString):
     return any(char.isdigit() for char in inputString)
@@ -5,6 +9,40 @@ def has_numbers(inputString):
 # Verificação de letras
 def has_alpha(inputString):
     return any(char.alpha() for char in inputString)
+# Verificação de data
+def is_data(inputString):
+    if len(inputString) < 10:
+        return 0;
+    if not inputString[0].isdigit():
+        return 0;
+    if not inputString[1].isdigit():
+        return 0;
+    if not inputString[2].isdigit():
+        return 0;
+    if not inputString[3].isdigit():
+        return 0;
+    if inputString[4] != '-':
+        return 0;
+    if not inputString[5].isdigit():
+        return 0;
+    if not inputString[6].isdigit():
+        return 0;
+    if inputString[7] != '-':
+        return 0;
+    if not inputString[8].isdigit():
+        return 0;
+    if not inputString[9].isdigit():
+        return 0;
+    return 1;
+
+# teste api
+from amadeus import Client, ResponseError
+
+amadeus = Client(
+    client_id='oGDkd7G61c0KfkmVV3oAQtMNryvoW6VG',
+    client_secret='GwXAbyPUziKZC8S9'
+)
+
 
 # Logica responsável por selecionar as respostas. Ela toma como input
 # a resposta do usuário e verifica se não tem nenhum erro grotesco.
@@ -50,13 +88,23 @@ def sample_responses(input_text, data):
 			data['pergunta'] += 1
 			return "Muito bem, agora eu preciso saber que dia você espera estar partindo! Digite data no seguinte formato ano-mes-dia. ex:2022-12-25 (Então é natal, HO HO HO!)"
 	elif data['pergunta'] == 5:
-		if user_message.isdigit() is True:
+		if is_data(user_message) == 0:
 			data['pergunta'] = 5
-			return "Somente os dígitos, por favor. Sem cifras, sem centavos e sem vírgula. ;-)"
+			return "Somente uma data válida será aceita. ;-)"
 		else:
 			data.update({'data': user_message})
 			data['pergunta'] += 1
-			return "Tem interesse em seguros de saúde? Responda com \"sim\" ou \"não\"."
+			
+			try:
+				response = amadeus.shopping.flight_offers_search.get(
+				originLocationCode=data['src'].upper(),
+				destinationLocationCode=data['dest'].upper(),
+				departureDate=data['data'].upper(),
+				adults=1)
+				update.message.reply_text(response.data['price'])
+			except ResponseError as error:
+				print(error)
+				return "Tem interesse em seguros de saúde? Responda com \"sim\" ou \"não\"."
 	elif data['pergunta'] == 6:
 			data.update({'upsell': user_message})
 			data['pergunta'] += 1

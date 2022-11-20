@@ -9,18 +9,19 @@ amadeus = Client(
     client_secret='GwXAbyPUziKZC8S9'
 )
 
-try:
+
+'''try:
     response = amadeus.shopping.flight_offers_search.get(
-        originLocationCode='Pushswap',
+        originLocationCode='LON',
         destinationLocationCode='ATH',
         departureDate='2022-12-01',
         adults=1)
-    print(response.data)
+    print(response.data[0]['price'])
 except ResponseError as error:
     print(error)
 
 try:
-    response = amadeus.reference_data.recommended_locations.get(cityCodes='RIO', travelerCountryCode='FR')
+    response = amadeus.reference_data.recommended_locations.get(cityCodes='LON', travelerCountryCode='US')
     #print(response.data)
 except ResponseError as error:
     print(error)
@@ -30,10 +31,15 @@ lat  = objeto[0]['geoCode']['latitude']
 lon = objeto[0]['geoCode']['longitude']
 
 response = amadeus.safety.safety_rated_locations.get(latitude=(str)(lat), longitude= (str)(lon))
-print(response.data)
+print(response.data[0])
 
 print(lat)
-print(lon)
+print(lon)'''
+
+# Flight Offers Price
+
+
+
 print("Bot started...")
 
 data = dict()
@@ -56,13 +62,6 @@ def start_command(update, context):
 
 def help_command(update, context):
 	update.message.reply_text("Então, por enquanto sou só um protótipo, realizo apenas o pré-cadastro das pessoas. Digite 'cadastro' se deseja iniciar o processo.")
-
-
-def save_file(data, user_id):
-	user_file = open(str(user_id), 'w')
-	user_file.write(json.dumps(data[user_id]))
-	user_file.flush()
-	user_file.close()
 
 
 def handle_message(update, context):
