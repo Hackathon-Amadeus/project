@@ -36,7 +36,7 @@ def is_data(inputString):
     return 1;
 
 # teste api
-from amadeus import Client, ResponseError
+from amadeus import Client, ResponseError,  Location
 
 amadeus = Client(
     client_id='oGDkd7G61c0KfkmVV3oAQtMNryvoW6VG',
@@ -53,7 +53,7 @@ def sample_responses(input_text, data):
 
     if "go" in user_message:
         data['pergunta'] = 1
-        return "Perfeito! De que cidade você quer partir?"
+        return "Perfeito! De que cidade você quer partir?(Me diga o código IATA do aeroporto que você quer sair, eu ainda estou em um estágio bem inicial de desenvolvimento...)"
     elif data['pergunta'] == 1:
         if has_numbers(user_message):
             data['pergunta'] = 1
@@ -61,7 +61,7 @@ def sample_responses(input_text, data):
         else:
             data.update({'src':user_message})
             data['pergunta'] += 1
-            return "Agora o nome da cidade de seu destino, mas sem pontos nem traços, por favor. :-)"
+            return "Agora, o aeroporto de destino. (Só entendo códigos IATA por enquanto...)😅"
     elif data['pergunta'] == 2:
         if has_numbers(user_message):
             data['pergunta'] = 2
@@ -69,12 +69,17 @@ def sample_responses(input_text, data):
         else:
             data.update({'dest': user_message})
             data['pergunta'] += 1
+            #teste = amadeus.reference_data.locations.get(
+            #       keyword=user_message,
+            #        subType=Location.CITY,
+            #        )
+            #print(teste.data)'''
             return "Qual o código do seu país. Ex: Brasil -> BR, França -> FR, Estados Unidos -> US"
     elif data['pergunta'] == 3:
         if user_message in ("br, fr, us, pr, ca, it, pt, en"):
             data.update({'contrycode': user_message})
             data['pergunta'] += 1
-            return "É um lugar lindo! \*___\* Já estamos na metade! Quantos adultos irão nessa viagem contando com você?"
+            return "É um lugar lindo! 😍Já estamos na metade! Quantos adultos irão nessa viagem contando com você?"
         else:
             data['pergunta'] == 3
             return "Não reconheço esse código x__x Digite um código valido"
@@ -101,7 +106,7 @@ def sample_responses(input_text, data):
             adults=1)
         except ResponseError as error:
             print(error) 
-        price = float(response.data[0]['price']['grandTotal']) * 5.57
+        price = float(response.data[0]['price']['grandTotal']) * 5
         return ("O preço da passagem ficou em " + str(price) + " Reais.\nTem interesse em seguros de saúde? Responda com \"sim\" ou \"não\".")
     elif data['pergunta'] == 6:
         data.update({'upsell': user_message})
@@ -114,4 +119,4 @@ def sample_responses(input_text, data):
         else:
             data.update({'Permanence': False})
             print(data)
-        return "Prontinho! Já terminamos! Obrigada pelas respostas. Aguarde o retorno de seu pedido em seu email :-D"
+        return "Prontinho! Já terminamos! Obrigada pelas respostas. Aguarde o retorno de seu pedido em seu email 😄"
