@@ -1,3 +1,106 @@
 # NomTravel
 
-Um app para conectar nômades de todo o mundo, oferecendo as melhores opções de viagens!
+![Logo](https://user-images.githubusercontent.com/79846426/202920146-7e5fbadf-d860-4161-b458-38cea5399dbd.png)
+
+## Uma rede social de nômade para nômade
+
+<br>
+
+A [NomTravel](https://dvargas1.github.io/index.html) surge como um hub de encontro de nômades que estão em toda parte do mundo além disso dá a oportunidade para quem ainda não conhece esse mundo em conhecer um pouco mais sobre esse estilo de vida. Aqui eles poderão trocar experiências de suas, fazer recomendações de lugares e instalações que eles usaram, conhecer pessoas que estão próximas ao seu estilo de vida e muito mais.
+<br>
+<br>
+A NomTravel também oferece serviços que serão muito úteis no seu dia-a-dia como um nômade digital. Apostamos num serviço personalizado e que poupe o tempo de nossos usuários, afinal o nômade preza muito por sua liberdade e nós também. Hoje ja existem mais de 35 milhões de nômades digitais e a projeção é que em 15 anos esse número chegue a 1 bilhão de nômades, e a NomTravel estará aqui para conectar essa comunidade e facilitar a preparação de toda sua jornada!  
+
+
+## 🌟 &nbsp; NomTravel é rede onde você encontrará…
+
+<br>
+
+- Um lugar propício para desenvolvimento de uma comunidade cooperativa;
+- Um perfil de usuário e um fórum categorizado por assuntos onde a interação acontece e os vinculos são estabelecidos.
+- Um conjunto de serviços e facilidades como consulta a preço de vôos, agendamento de viagens, informações sobre o destino e muito mais.
+
+<br>
+<br>
+
+## ✨ &nbsp; Conheça o ambiente que a NumTravel te proporciona:
+
+
+<br>
+
+### Forum
+
+![Forum - Premium](https://user-images.githubusercontent.com/79846426/202924989-dcd424c3-c726-4fb5-941e-4152ed36e022.png)
+
+- O fórum é onde todos os usuários tem acesso e podem usufruir de todas as suas funcionalidades.
+- Aqui o nômade poderá compartilhar suas experiências, fazer perguntas, conhecer outros nômades, divulgar seu trabalho e a lista continua...
+- Os assuntos são visualizados em um feed que pode ser filtrado por assuntos específicos.
+
+<br>
+<br>
+
+![image](https://user-images.githubusercontent.com/79846426/202924846-286676c6-a209-4306-802a-ca6133c8ea85.png)
+
+- Nosso concierge é uma ferramenta premium, onde o usuário assina um plano mensal para ter acesso a seus serviços.
+- Atráves de uma breve interação com o Concierge, o nomadê pode poupar muito tempo que seria gasto fazendo pesquisas por conta própria.
+- A princípio, A funcionalidade atual do bot é a consulta do preço mais barato de um voo. Porém a ideia é colocar a maior quantidade serviços possiveis.
+- O bot utiliza das APIs fornecidas pela Amadeus para fazer suas recomendações.  
+
+
+#### 🌟 &nbsp; [Concierge NumTravel](https://t.me/TravelNom_bot) estará sempre a sua disposição!
+<br>
+<br>
+
+<img align="left" src="" height=400px width=200px>
+
+&nbsp; &nbsp;  Esse bot consegue realizar consultas e simplificam tarefas para o usuário.
+
+<br>
+
+&nbsp; &nbsp;  Nesse exemplo, o usuário solicitou uma consulta de preço de passagens.
+
+<br>
+
+&nbsp; &nbsp;  Com auxilio das apis da Amadeus o vôo mais barato é encontrado em menos de 30 segundo de interação.  
+
+<br>
+
+&nbsp; &nbsp;  O concierge está disponível nesse momento, quer dar uma olhada no seu próximo destino?  
+
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+### Instalação
+
+A inicialização do bot se dá da seguinte maneira:
+
+1. Clone o repositório
+   ```sh
+   git clone git@github.com:Hackathon-Amadeus/project.git
+   ```
+2. Pegue a sua api key do telegram [passo a passo](https://sendpulse.com/knowledge-base/chatbot/telegram/create-telegram-chatbot)
+
+3.  Entrar no ambiente virtual
+   ```sh
+   cd project/chatbot/venv
+   ```
+4. Mudar a source
+   ```sh
+   source /bin/activate
+   ```
+5. rodar a main.py
+   ```sh
+   python3 ../main.py
+   ``` 
+
+
+![Tela de finalizacao do readme](https://user-images.githubusercontent.com/79846426/202925604-8129c49b-6a58-4bc6-90bf-1a8224e233d3.png)
+
