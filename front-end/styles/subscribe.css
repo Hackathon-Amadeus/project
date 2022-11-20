@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  background-color: #6C6C6C;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2rem 2rem 0 0;
+  transition: 300ms;
+}
+
+.close img{
+  width: 15px;
+  height: 12px;
+}
+
+.close img:hover{
+  transform: scale(1.15);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h2{
+  text-align: center;
+  color: #FCCB63;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  margin-bottom: 6rem;
+}
+
+.container .cards{
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.container .cards .card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .cards .card img{
+  width: 13.8rem;
+  height: 12.8rem;
+}
+
+.container .cards .card h3{
+  color: white;
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+}
+
+.container .cards .card p{
+  color: white;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+}
+
+.container a{
+  text-align: center;
+  text-decoration: none;
+}
+
+.container button{
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 21px;
+  background: #2EB394;
+  border-radius: 30px;
+  border: none;
+  padding: 1.5rem 4rem;
+  margin-top: 6rem;
+  transition: 300ms;
+}
+
+.container button:hover{
+  font-weight: 700;
+  background: #1d997c;
+  transform: scale(1.07);
+}

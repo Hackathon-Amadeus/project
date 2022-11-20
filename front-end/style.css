@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+
+  --ff-logo: 'Ropa Sans', sans-serif;
+  --ff-geral: 'Raleway', sans-serif;
+}
+
+body{
+  max-width: 1366px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+nav{
+  max-width: 1366px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 8rem;
+  background: #FFFBFB;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a{
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  color: black;
+  font-family: var(--ff-logo);
+  font-size: 18px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+nav button{
+  padding: 1rem 3rem;
+  background: #4392F1;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-family: var(--ff-geral);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+nav a button{
+  transition: 200ms;
+}
+
+nav a button:hover{
+  transform: scale(1.1);
+  background: #2c79d6;
+}
+
+main{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.42) 0%, #DEEDFF 71.35%);
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .description{
+  margin: 8rem 0 13.5rem 8rem;
+  width: 60rem;
+  height: 25rem;
+}
+
+.container .description h2{
+  font-family: var(--ff-geral);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  color: #2EB394;
+  margin-bottom: 1.5rem;
+}
+
+.container .description p{
+  font-family: var(--ff-geral);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: #34435E;
+  text-align: justify;
+}
+
+.container .image-description img{
+  margin: 8rem 14rem 9rem 0;
+  width: 300px;
+  height: 400px;
+}
+
+.container .about{
+  margin: 1rem 8rem 3rem 2rem;
+  width: 60rem;
+  height: 25rem;
+}
+
+.container .about h2{
+  font-family: var(--ff-geral);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  color: #2EB394;
+  margin-bottom: 1.5rem;
+  text-align: end;
+}
+
+.container .about p{
+  font-family: var(--ff-geral);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #34435E;
+  text-align: justify;
+}
+
+.container .gif-about img{
+  margin: 1rem 5rem 3rem 18rem;
+  width: 300px;
+  height: 400px;
+}
+
+section.equipe{
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  padding: 3rem;
+}
+
+section.equipe h2{
+  font-family: var(--ff-geral);
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 49px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+section.equipe .cards{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+section.equipe .cards .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.equipe .cards .card h3{
+  font-family: var(--ff-geral);
+  color: white;
+  text-align: left;
+  font-size: 2rem;
+  line-height: 2.1rem;
+  margin: 1rem 0;
+}
+
+section.equipe .cards .card p{
+  font-family: var(--ff-geral);
+  max-width: 190px;
+  color: #d9d9d9;
+  margin-bottom: 5rem;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #383838;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+}
+
+footer .logo a{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: .8rem;
+  font-family: var(--ff-logo);
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+  color: #FFFEFE;
+  text-decoration: none;
+}
+
+footer .social-medias{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer .social-medias a{
+  transition: 200ms;
+}
+
+footer .social-medias a:hover{
+  transform: scale(1.25);
+}

@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+  --ff-logo: 'Ropa Sans', sans-serif;
+  --ff-geral: 'Raleway', sans-serif;
+}
+
+.selected{
+  color: #508ABF;
+}
+
+body{
+  max-width: 1366px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 8rem;
+  background: #FFFBFB;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a{
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  color: black;
+  font-family: var(--ff-logo);
+  font-size: 18px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+nav ul li a{
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  color: black;
+  font-family: var(--ff-geral);
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  text-decoration: none;
+}
+
+nav ul li a{
+  transition: 300ms;
+}
+
+nav ul li a:hover{
+  font-weight: 600;
+  transform: scale(1.15);
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  margin: 5rem 8rem;
+}
+
+main .content h2{
+  font-family: var(--ff-geral);
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 4.9rem;
+  color: #1494FF;
+  margin-bottom: 1.5rem;
+}
+
+main .content p{
+  text-align: justify;
+  max-width: 85rem;
+  font-family: var(--ff-geral);
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  display: flex;
+  align-items: center;
+  color: #34435E;
+  margin-bottom: 2rem;
+}
+
+main .image-chatbot img{
+  width: 510px;
+  height: 400px;
+}
+
+button{
+  padding: 1rem 3rem;
+  background: #4392F1;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-family: var(--ff-geral);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+a button{
+  transition: 200ms;
+}
+
+a button:hover{
+  background: #2c79d6;
+}

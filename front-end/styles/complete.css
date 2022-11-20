@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  gap: 3rem;
+}
+
+.container img{
+  width: 325px;
+  height: 150px;
+  border-radius: 2rem;
+}
+
+.container h1{
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 4.7rem;
+  text-align: center;
+  color: #010101;
+}
+
+.container a{
+  text-align: center;
+  text-decoration: none;
+}
+
+.container button{
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  background: #2EB394;
+  border-radius: 3rem;
+  border: none;
+  padding: 1.5rem 4rem;
+  transition: 300ms;
+}
+
+.container button:hover{
+  font-weight: 700;
+  background: #1d997c;
+  transform: scale(1.07);
+}
