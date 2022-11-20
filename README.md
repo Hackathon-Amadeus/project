@@ -6,13 +6,13 @@
 
 <br>
 
-A [NomTravel]() surge como um hub de encontro de nômades que estão em toda parte do mundo além disso dá a oportunidade para quem ainda não conhece esse mundo em conhecer um pouco mais sobre esse estilo de vida. Aqui eles poderão trocar experiências de suas, fazer recomendações de lugares e instalações que eles usaram, conhecer pessoas que estão próximas ao seu estilo de vida e muito mais.
+A NomTravel é uma rede social que conta com uma plataforma de Concierge para Nômades Digitais. Aqui eles poderão trocar experiências de suas, fazer recomendações de lugares e instalações que eles usaram, conhecer pessoas que estão próximas ao seu estilo de vida e muito mais.
 <br>
 <br>
-A NomTravel também oferece serviços que serão muito úteis no seu dia-a-dia como um nômade digital. Apostamos num serviço personalizado e que poupe o tempo de nossos usuários, afinal o nômade preza muito por sua liberdade e nós também. Hoje ja existem mais de 35 milhões de nômades digitais e a projeção é que em 15 anos esse número chegue a 1 bilhão de nômades, e a NomTravel estará aqui para conectar essa comunidade e facilitar a preparação de toda sua jornada!  
+A NomTravel oferece serviços que serão muito úteis no dia-a-dia de um nômade digital. Desenvolvemos um serviço personalizado que poupa o tempo dos nossos usuários, afinal, o nômade preza muito por sua liberdade. E nós também. Hoje já existem mais de 15 milhões de nômades digitais e a projeção é que em 2035 esse número chegue a 1 bilhão de nômades. A NomTravel estará aqui para conectar essa comunidade e facilitar a preparação de toda sua jornada! 
 
 
-## 🌟 &nbsp; NomTravel é rede onde você encontrará…
+## 🌟 &nbsp; Na NomTravel você encontrará…
 
 <br>
 
