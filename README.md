@@ -6,7 +6,7 @@
 
 <br>
 
-A [NomTravel](https://dvargas1.github.io/index.html) surge como um hub de encontro de nômades que estão em toda parte do mundo além disso dá a oportunidade para quem ainda não conhece esse mundo em conhecer um pouco mais sobre esse estilo de vida. Aqui eles poderão trocar experiências de suas, fazer recomendações de lugares e instalações que eles usaram, conhecer pessoas que estão próximas ao seu estilo de vida e muito mais.
+A [NomTravel]() surge como um hub de encontro de nômades que estão em toda parte do mundo além disso dá a oportunidade para quem ainda não conhece esse mundo em conhecer um pouco mais sobre esse estilo de vida. Aqui eles poderão trocar experiências de suas, fazer recomendações de lugares e instalações que eles usaram, conhecer pessoas que estão próximas ao seu estilo de vida e muito mais.
 <br>
 <br>
 A NomTravel também oferece serviços que serão muito úteis no seu dia-a-dia como um nômade digital. Apostamos num serviço personalizado e que poupe o tempo de nossos usuários, afinal o nômade preza muito por sua liberdade e nós também. Hoje ja existem mais de 35 milhões de nômades digitais e a projeção é que em 15 anos esse número chegue a 1 bilhão de nômades, e a NomTravel estará aqui para conectar essa comunidade e facilitar a preparação de toda sua jornada!  
@@ -52,7 +52,9 @@ A NomTravel também oferece serviços que serão muito úteis no seu dia-a-dia c
 <br>
 <br>
 
-<img align="left" src="" height=400px width=200px>
+<img align="left" src="https://user-images.githubusercontent.com/79846426/202926886-1b56daed-a78e-4e1c-84b7-f433dff63594.gif" width="250px" height="400px" display="block">
+
+
 
 &nbsp; &nbsp;  Esse bot consegue realizar consultas e simplificam tarefas para o usuário.
 
@@ -61,8 +63,8 @@ A NomTravel também oferece serviços que serão muito úteis no seu dia-a-dia c
 &nbsp; &nbsp;  Nesse exemplo, o usuário solicitou uma consulta de preço de passagens.
 
 <br>
-
-&nbsp; &nbsp;  Com auxilio das apis da Amadeus o vôo mais barato é encontrado em menos de 30 segundo de interação.  
+ 
+&nbsp; &nbsp; Com auxilio das apis da Amadeus o vôo mais barato é encontrado em menos de 30 segundos.  
 
 <br>
 
