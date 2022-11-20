@@ -6,7 +6,7 @@
 
 <br>
 
-A NomTravel é uma rede social que conta com uma plataforma de Concierge para Nômades Digitais. Aqui eles poderão trocar experiências de suas, fazer recomendações de lugares e instalações que eles usaram, conhecer pessoas que estão próximas ao seu estilo de vida e muito mais.
+A [NomTravel](https://mateuspinna.github.io/) é uma rede social que conta com uma plataforma de Concierge para Nômades Digitais. Aqui eles poderão trocar experiências de suas, fazer recomendações de lugares e instalações que eles usaram, conhecer pessoas que estão próximas ao seu estilo de vida e muito mais.
 <br>
 <br>
 A NomTravel oferece serviços que serão muito úteis no dia-a-dia de um nômade digital. Desenvolvemos um serviço personalizado que poupa o tempo dos nossos usuários, afinal, o nômade preza muito por sua liberdade. E nós também. Hoje já existem mais de 15 milhões de nômades digitais e a projeção é que em 2035 esse número chegue a 1 bilhão de nômades. A NomTravel estará aqui para conectar essa comunidade e facilitar a preparação de toda sua jornada! 
