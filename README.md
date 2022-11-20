@@ -89,7 +89,7 @@ A inicialização do bot se dá da seguinte maneira:
    ```sh
    git clone git@github.com:Hackathon-Amadeus/project.git
    ```
-2. Pegue a sua api key do telegram [passo a passo](https://sendpulse.com/knowledge-base/chatbot/telegram/create-telegram-chatbot)
+2. Pegue a sua API KEY do telegram [passo a passo](https://sendpulse.com/knowledge-base/chatbot/telegram/create-telegram-chatbot). Você também precisará da API KEY e a SECRECT KEY da Amadeus
 
 3.  Entrar no ambiente virtual
    ```sh
