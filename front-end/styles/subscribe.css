@@ -45,9 +45,9 @@ body{
 .container h2{
   text-align: center;
   color: #FCCB63;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 47px;
+  line-height: 4.7rem;
   margin-bottom: 6rem;
 }
 
@@ -92,7 +92,7 @@ body{
   color: white;
   font-weight: 700;
   font-size: 1.5rem;
-  line-height: 21px;
+  line-height: 2.1rem;
   background: #2EB394;
   border-radius: 30px;
   border: none;

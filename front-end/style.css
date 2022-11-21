@@ -33,15 +33,15 @@ nav a{
   gap: .8rem;
   color: black;
   font-family: var(--ff-logo);
-  font-size: 18px;
-  line-height: 19px;
+  font-size: 1.8rem;
+  line-height: 1.9rem;
   text-decoration: none;
 }
 
 nav button{
   padding: 1rem 3rem;
   background: #4392F1;
-  border-radius: 20px;
+  border-radius: 2rem;
   border: none;
   color: white;
   font-family: var(--ff-geral);
@@ -77,8 +77,8 @@ main{
 .container .description h2{
   font-family: var(--ff-geral);
   font-weight: 700;
-  font-size: 42px;
-  line-height: 49px;
+  font-size: 4.2rem;
+  line-height: 4.9rem;
   color: #2EB394;
   margin-bottom: 1.5rem;
 }
@@ -107,8 +107,8 @@ main{
 .container .about h2{
   font-family: var(--ff-geral);
   font-weight: 700;
-  font-size: 42px;
-  line-height: 49px;
+  font-size: 4.2rem;
+  line-height: 4.9rem;
   color: #2EB394;
   margin-bottom: 1.5rem;
   text-align: end;
@@ -117,8 +117,8 @@ main{
 .container .about p{
   font-family: var(--ff-geral);
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 2rem;
+  line-height: 2.8rem;
   color: #34435E;
   text-align: justify;
 }
@@ -141,8 +141,8 @@ section.equipe h2{
   text-align: center;
   font-style: normal;
   font-weight: 600;
-  font-size: 42px;
-  line-height: 49px;
+  font-size: 4.2rem;
+  line-height: 4.9rem;
   padding: 2rem;
   margin-bottom: 3rem;
 }

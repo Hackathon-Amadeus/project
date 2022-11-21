@@ -35,8 +35,8 @@ nav a{
   gap: .8rem;
   color: black;
   font-family: var(--ff-logo);
-  font-size: 18px;
-  line-height: 19px;
+  font-size: 1.8rem;
+  line-height: 1.9rem;
   text-decoration: none;
 }
 
@@ -107,7 +107,7 @@ main .image-chatbot img{
 button{
   padding: 1rem 3rem;
   background: #4392F1;
-  border-radius: 20px;
+  border-radius: 2rem;
   border: none;
   color: white;
   font-family: var(--ff-geral);
