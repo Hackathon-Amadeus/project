@@ -48,7 +48,7 @@ A NomTravel oferece serviços que serão muito úteis no dia-a-dia de um nômade
 - O bot utiliza das APIs fornecidas pela Amadeus para fazer suas recomendações.  
 
 
-#### 🌟 &nbsp; [Concierge NomTravel](https://t.me/TravelNom_bot) estará sempre a sua disposição!
+#### 🌟 &nbsp; [Concierge NomTravel](https://t.me/TravelNom_bot) estará sempre a sua disposição! Nossa solução está hospedada na AWS com disponibilidade 24/7.
 <br>
 <br>
 
