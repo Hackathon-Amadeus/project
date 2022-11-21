@@ -6,7 +6,7 @@
 
 <br>
 
-A NomTravel é uma rede social que conta com uma plataforma de Concierge para Nômades Digitais. Aqui eles poderão trocar experiências de suas, fazer recomendações de lugares e instalações que eles usaram, conhecer pessoas que estão próximas ao seu estilo de vida e muito mais.
+A [NomTravel](https://mateuspinna.github.io/) é uma rede social que conta com uma plataforma de Concierge para Nômades Digitais. Aqui eles poderão trocar experiências de suas, fazer recomendações de lugares e instalações que eles usaram, conhecer pessoas que estão próximas ao seu estilo de vida e muito mais.
 <br>
 <br>
 A NomTravel oferece serviços que serão muito úteis no dia-a-dia de um nômade digital. Desenvolvemos um serviço personalizado que poupa o tempo dos nossos usuários, afinal, o nômade preza muito por sua liberdade. E nós também. Hoje já existem mais de 15 milhões de nômades digitais e a projeção é que em 2035 esse número chegue a 1 bilhão de nômades. A NomTravel estará aqui para conectar essa comunidade e facilitar a preparação de toda sua jornada! 
@@ -23,7 +23,7 @@ A NomTravel oferece serviços que serão muito úteis no dia-a-dia de um nômade
 <br>
 <br>
 
-## ✨ &nbsp; Conheça o ambiente que a NumTravel te proporciona:
+## ✨ &nbsp; Conheça o ambiente que a NomTravel te proporciona:
 
 
 <br>
@@ -32,9 +32,9 @@ A NomTravel oferece serviços que serão muito úteis no dia-a-dia de um nômade
 
 ![Forum - Premium](https://user-images.githubusercontent.com/79846426/202924989-dcd424c3-c726-4fb5-941e-4152ed36e022.png)
 
-- O fórum é onde todos os usuários tem acesso e podem usufruir de todas as suas funcionalidades.
-- Aqui o nômade poderá compartilhar suas experiências, fazer perguntas, conhecer outros nômades, divulgar seu trabalho e a lista continua...
-- Os assuntos são visualizados em um feed que pode ser filtrado por assuntos específicos.
+- Um lugar propício para desenvolvimento de uma comunidade cooperativa;
+- Um fórum categorizado por assuntos onde a interação acontece por interesses em comum e vínculos são estabelecidos.
+- Uma plataforma com tudo que um Nômade Digital precisa para decidir e planejar seu próximo destino, contando até com um chatbot para um planejamento guiado.
 
 <br>
 <br>
@@ -48,7 +48,7 @@ A NomTravel oferece serviços que serão muito úteis no dia-a-dia de um nômade
 - O bot utiliza das APIs fornecidas pela Amadeus para fazer suas recomendações.  
 
 
-#### 🌟 &nbsp; [Concierge NumTravel](https://t.me/TravelNom_bot) estará sempre a sua disposição!
+#### 🌟 &nbsp; [Concierge NomTravel](https://t.me/TravelNom_bot) estará sempre a sua disposição!
 <br>
 <br>
 
@@ -68,7 +68,7 @@ A NomTravel oferece serviços que serão muito úteis no dia-a-dia de um nômade
 
 <br>
 
-&nbsp; &nbsp;  O concierge está disponível nesse momento, quer dar uma olhada no seu próximo destino?  
+&nbsp; &nbsp;  O concierge está disponível nesse momento, quer dar uma olhada no seu próximo [destino](https://t.me/TravelNom_bot)?  
 
 <br>
 
